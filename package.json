@@ -1,0 +1,36 @@
+{
+  "name": "quiz-portal-backend",
+  "version": "1.0.0",
+  "description": "\"Backend for The Turing Test Portal\"",
+  "homepage": "https://github.com/Shaurya130/Quiz-Portal-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Shaurya130/Quiz-Portal-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaurya130/Quiz-Portal-Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
